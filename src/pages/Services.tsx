@@ -102,6 +102,8 @@ const Services = () => {
           name="description"
           content="Explore my services including web design, development, UI/UX design, branding, and maintenance. Let's work together to bring your vision to life."
         />
+        {/* Favicon */}
+      <link rel="icon" type="image/png" href="/Ralph-logo.png" />
       </Helmet>
       <Layout>
         {/* Hero Section */}

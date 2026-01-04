@@ -101,6 +101,8 @@ const Portfolio = () => {
           name="description"
           content="Explore my portfolio of web design, UI/UX, branding, and development projects."
         />
+        {/* Favicon */}
+      <link rel="icon" type="image/png" href="/Ralph-logo.png" />
       </Helmet>
 
       <Layout>

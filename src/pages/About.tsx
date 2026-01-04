@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 import { Layout } from '@/components/layout/Layout';
-import { Award, BookOpen, Briefcase, Heart, MapPin, Coffee } from 'lucide-react';
+import { Award, Briefcase, Heart, MapPin, Coffee } from 'lucide-react';
 import profilePhoto from '@/assets/profile-photo.jpg';
-import {Code2} from 'lucide-react'
+
 
 const skills = {
   design: ['UI/UX Design', 'Web Design', 'Brand Identity', 'Motion Design', 'Illustration'],
@@ -38,8 +38,11 @@ const About = () => {
         <title>About Me | Rapheal Akujieze - Digital Designer</title>
         <meta
           name="description"
-          content="Learn more about Alex Morgan, a passionate digital designer with 8+ years of experience creating beautiful digital experiences."
+          content="Learn more about Rapheal Akujieze, a passionate digital designer with years of experience creating beautiful digital experiences."
         />
+        
+      {/* Favicon */}
+      <link rel="icon" type="image/png" href="/Ralph-logo.png" />
       </Helmet>
       <Layout>
         {/* Hero Section */}
